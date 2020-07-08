@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    background-color: rgb(20, 20, 20);
+}
+
+canvas{
+    height: 100vmin;
+    width: 100vmin;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2em;
+}
+
+.panel{
+    min-width: 10em;
+    color: rgb(224, 223, 223);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+.panel > div{
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+    padding: 2em;
+}
